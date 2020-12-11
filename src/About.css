@@ -1,0 +1,83 @@
+.about {
+	max-width: 1000px;
+	margin: auto;
+}
+.about__details {
+	display: flex;
+	justify-content: space-around;
+}
+.about > h1 {
+	text-align: center;
+	color: #10ac84;
+}
+.about > img {
+	border-radius: 50%;
+}
+.abt__img {
+	border-radius: 50% !important;
+}
+.about__me {
+	padding-top: 40px;
+}
+.about__me > h6 {
+	text-align: center;
+	color: #a4b0be;
+}
+.about__me > p {
+	opacity: 1;
+	font-weight: 600;
+}
+.about__me > p:hover {
+	opacity: 1;
+
+	cursor: pointer;
+}
+.about__meButton {
+	background-color: #a4b0be !important;
+	color: #10ac84 !important;
+	text-transform: inherit !important;
+}
+.about__projects {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.abt__icon {
+	padding-top: 30px;
+	color: #10ac84;
+}
+.about__item {
+	border-radius: 3px;
+	margin: 0 10px;
+	background-color: #222f3e;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.about__item > h6 {
+	color: white;
+}
+.about__item > p {
+}
+@media screen and (max-width: 960px) {
+	.about__projects {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.about__item {
+		margin: 10px 10px;
+	}
+	.about__details {
+		display: flex;
+		justify-content: space-around;
+	}
+	.about__me > h6 {
+		color: #a4b0be;
+	}
+	.about__me > p {
+		font-size: 13px;
+		display: flex;
+		text-decoration: none;
+	}
+}
